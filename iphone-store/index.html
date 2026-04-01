@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cửa hàng iPhone</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="brand">iPhone Store</div>
+        <nav>
+            <a href="#home">Trang chủ</a>
+            <a href="#products">Sản phẩm</a>
+            <a href="#cart">Giỏ hàng</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Chuyên iPhone chính hãng</h1>
+        <p>Giá tốt, bảo hành chính hãng, giao hàng toàn quốc.</p>
+    </section>
+
+    <section id="products" class="product-grid"></section>
+
+    <section id="cart" class="cart-panel">
+        <h2>Giỏ hàng</h2>
+        <div class="cart-items"></div>
+        <div class="cart-summary">Tổng: <span id="cart-total">0</span> đ</div>
+        <button id="checkoutBtn">Thanh toán</button>
+    </section>
+
+    <footer>
+        <p>© 2026 iPhone Store - Demo</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

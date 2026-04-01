@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../xampp/htdocs/Quanli_rapchieuphim"
+		},
+		{
+			"path": "D:/HCI"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "OnTapJS"
+	}
+}
